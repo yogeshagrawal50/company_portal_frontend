@@ -4,7 +4,8 @@
 <head>
      <link  type="text/css" rel="stylesheet"  href="css/bootstrap.min.css" />    
      <link  type="text/css" rel="stylesheet"  href="css/style.css" />    
-     <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" type="text/css" rel="stylesheet" />    
+     <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" type="text/css" rel="stylesheet" />  
+     <link href="bootstrap-tour-0.12.0/bootstrap-tour-0.12.0/build/css/bootstrap-tour.min.css" rel="stylesheet">  
 </head>
     
 <body>     
@@ -96,7 +97,7 @@
     <br/><br/><br/><br/><br/>
     <!----  Image Grid  ----------------------------------------------------->
 
-    <div class="container">
+    <!-- <div class="container">
        <div class="row">
 
         <div class="col-md-4">
@@ -112,7 +113,7 @@
          </div>
 
       </div>
-    </div>  
+    </div>   -->
 
    <!--  Image Grid complete  ---------------------------------------------->   
 
@@ -122,17 +123,21 @@
      <div class="container">
         
            <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-4" id="col-1">
+                  <img src="images/live_classes.png"/>
                   <h2>Live classes</h2>
                     <p>Learn from our Experts and get Real-Time Guidance </p>
                 </div>
                
-               <div class="col-md-4">
+               <div class="col-md-4" id="col-2">
+                <img src="images/flexible_schedule.png"/>
                   <h2>Flexible schedule</h2>
                     <p>Reschedule your Batch/Class at Your Convenience </p>
                 </div>
                
-               <div class="col-md-4">
+               <div class="col-md-4" id="col-3">
+                <img src="images/supporthome.png"/>
+
                   <h2>24 X 7 Support</h2>
                     <p>Personalized Guidance from our 24X7 Support Team </p>
                 </div>
@@ -275,6 +280,8 @@
     
      <script src="js/jquery-1.11.3.js"></script> 
      <script src="js/bootstrap.js"></script>   
+     <script src="bootstrap-tour-0.12.0/bootstrap-tour-0.12.0//build/js/bootstrap-tour.min.js"></script>
+     <script src="./tour.js"></script>
     
 </body>
 </html>
